@@ -23621,3 +23621,28 @@ a.text-dark:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+.sidebar-dark-primary .nav-sidebar > .nav-item:hover > .nav-link {
+  transition: all 0.3s ease-in-out;
+}
+
+.router-link-exact-active {
+  background: #644476;
+  color: #fff !important;
+  transition: all 0.3s ease-in-out;
+}
+
+.is-main-color--1 {
+  background: #4e355c;
+}
+
+.nav-treeview a,
+.nav-treeview .fas.nav-icon {
+  padding-left: 10px;
+  font-size: 13px;
+}
+
+.sidebar-dark-primary .nav-treeview > .nav-item > .nav-link {
+  color: #C2C7D0;
+  padding-left: 37px;
+}
+

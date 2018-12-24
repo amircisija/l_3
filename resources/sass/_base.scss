@@ -1,0 +1,36 @@
+.navbar-laravel {
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+
+.sidebar-dark-primary .nav-sidebar>.nav-item:hover>.nav-link {
+    transition: all 0.3s ease-in-out;
+}
+
+.router-link-exact-active {
+    background: lighten($color-1, 8%);
+    color: #fff !important;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.is-main-color--1 {
+    background: $color-1;
+}
+
+.nav-treeview {
+
+    a,
+    .fas.nav-icon {
+        padding-left: 10px;
+        font-size: 13px
+    }
+
+}
+
+.sidebar-dark-primary .nav-treeview>.nav-item>.nav-link {
+    color: #C2C7D0;
+    padding-left: 37px;
+}
